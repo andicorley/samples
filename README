@@ -1,0 +1,7 @@
+DKP is an accepted method of tracking participation and rewards in online multiplayer games. In this system, players are rewarded points as compensation for their participation in online in-game events and activities which can then be redeemed for rewards. Keeping track of this participation is usually a tedious task involving spreadsheets and numerous manual calculations.
+
+I wrote this test suite as part of a collaboration with a colleague who was creating a web-based administration system for simplifying the DKP process. In this application, users and administrators can log into a control panel, manage their account, enter and manage participation details, check their point balance, and view their rewards.
+
+My testing methodology began with a fresh SVN checkout of the application and building the environment inside of a Linux virtual machine. After using the system in both a user and administrative role, I set up a number of test cases to cover functionality. Selenium was used to cover the web-based interface. Handcrafted SQL queries were also performed to manually verify data. Additionally, I wrote a BASH script to simplify the act of rebuilding the database and returning the system to a consistent state for repeated rounds of testing. Issues were tracked via Bugzilla and usability feedback was also supplied throughout the testing process.
+
+The test and samples were used with permission.
